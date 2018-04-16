@@ -1,0 +1,220 @@
+
+/*=============================================================
+    Authour URI: www.binarycart.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+/*==============================================
+    GENERAL  STYLES    
+    =============================================*/
+@font-face {
+    font-family: 'gotham';
+    font-weight: 200;
+    src: url(https://cdn.bulldogjob.com/assets/gothams/Gotham-Light-659cdeecafc023c4d8a451e206e61bee940e6edeadd9baf1e10a1954ed40448f.woff2) format("woff2"), url(https://cdn.bulldogjob.com/assets/gothams/Gotham-Light-be060d383f6614914086d7f62ee1970182f2a9f19482ce05785775900ac2caf8.woff) format("woff"), url(https://cdn.bulldogjob.com/assets/gothams/Gotham-Light-2e6dfb8d71d937ca33455daef89e9047b3af17a54c40f2afc6cf458e64ad9304.otf)
+}
+
+@font-face {
+    font-family: 'gotham';
+    font-weight: 300;
+    src: url(https://cdn.bulldogjob.com/assets/gothams/Gotham-Book-f24a58c90f4621abe614cb4049836552f1b0113d0c4e7a043190ef19a7a306c5.woff2) format("woff2"), url(https://cdn.bulldogjob.com/assets/gothams/Gotham-Book-63c910757837464721e6450dbe556cdd28441fe9033245dcbb4bb68f256cec5b.woff) format("woff"), url(https://cdn.bulldogjob.com/assets/gothams/Gotham-Book-d14b56377fc75359100fc8471dac2996e4296cb11eeb66c84cf98764ed7f6346.otf)
+}
+
+@font-face {
+    font-family: 'gotham';
+    font-weight: 300;
+    font-style: italic;
+    src: url(https://cdn.bulldogjob.com/assets/gothams/Gotham-BookItalic-e6c6c97d8694609c0e8fce6a35bc8443b38550b8473ace0e5ef575861dbd32f5.woff2) format("woff2"), url(https://cdn.bulldogjob.com/assets/gothams/Gotham-BookItalic-39b6b52551e1ac7579c2e54d7eea5b9653a93988e5f663fc899cba53a893c7db.woff) format("woff"), url(https://cdn.bulldogjob.com/assets/gothams/Gotham-BookItalic-c017a96f6e30d983e0a377f57547ec77e3064c2e3aa286cb81f4d3a078500759.otf)
+}
+
+@font-face {
+    font-family: 'gotham';
+    font-weight: normal;
+    src: url(https://cdn.bulldogjob.com/assets/gothams/Gotham-Medium-cd57c48a24886b8641bee0a2b26380611194af58d1b1e8362702bf87edbff693.woff2) format("woff2"), url(https://cdn.bulldogjob.com/assets/gothams/Gotham-Medium-e4851af23fc97a14ac9827bb94f3f291b1c4aae00367eb60d830cc5daed0847b.woff) format("woff"), url(https://cdn.bulldogjob.com/assets/gothams/Gotham-Medium-d8f8b107384477a5325656f339956c0f00c1f0428397657d50b5c1d4a9bf225b.otf)
+}
+
+@font-face {
+    font-family: 'gotham';
+    font-weight: normal;
+    font-style: italic;
+    src: url(https://cdn.bulldogjob.com/assets/gothams/Gotham-MediumItalic-3fd0ff27961807d371353fbef6afcafe12f2d9b0cb0ea51f2a0d7a440f87ead7.woff2) format("woff2"), url(https://cdn.bulldogjob.com/assets/gothams/Gotham-MediumItalic-7764788c7626ce572ee220fc63a92f67f938cfe3c56537458174a2d71550ba53.woff) format("woff"), url(https://cdn.bulldogjob.com/assets/gothams/Gotham-MediumItalic-ab21c6b5c3808c3fef89568a54afe6c0a94accfbf5655335234b46956fa0184d.otf)
+}
+
+@font-face {
+    font-family: 'gotham';
+    font-weight: bold;
+    src: url(https://cdn.bulldogjob.com/assets/gothams/Gotham-Bold-20938806c333467bb836b507ee8065434ac141383e242b6191891a4f08e75ca0.woff2) format("woff2"), url(https://cdn.bulldogjob.com/assets/gothams/Gotham-Bold-8c57c0060bdc4b1fe4150344bc724194275a6dc0e89815dea35aa9d80ae9ffeb.woff) format("woff"), url(https://cdn.bulldogjob.com/assets/gothams/Gotham-Bold-52f2032eee0668cc2227bca6ba0764cddcec03716a9186d7e890437cb8a58819.otf)
+}
+
+body {
+    line-height:30px;
+    font-weight: 200;
+    font-family: 'gotham';
+}
+
+ #wrapper {
+    width: 100%;
+    margin-top:50px;
+}
+
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 600px;
+    background:#F3F3F3;
+   
+}
+#page-inner {
+    width:100%;
+    margin:10px 20px 10px 0px;
+    background-color:#fff!important;
+    padding:10px;
+    min-height:1050px;
+}
+.pad-top {
+    padding-top:15px;
+}
+/*==============================================
+    MENU STYLES    
+    =============================================*/
+
+.sidebar-collapse .nav {
+	padding:0;
+    padding-top:50px;
+}
+
+.sidebar-collapse > .nav > li > a {
+	padding:15px 10px;
+    color: #214761;
+font-weight: 900;
+font-size: 16px;
+}
+.sidebar-collapse > .nav > li {
+	border-bottom:1px solid #e1e1e1;
+}
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+	
+	background:#F3F3F3;
+	outline:0;
+}
+
+.navbar-side {
+	border:none;
+	background-color: #fff;
+	
+}
+.navbar-inverse {
+
+background-color: #214761;
+border-color: #F0F0F0;
+min-height: 80px;
+}
+
+
+.nav > li > a > i {
+    margin-right:10px;
+}
+.logout-spn {
+    float:right;
+    color:#fff;
+    font-size:25px;
+    font-weight:800;
+    margin:20px;
+    margin: 10px 25px 10px 50px;
+}
+    .logout-spn a {
+        text-decoration:none;
+    }
+.active-link {
+    background-color:#f3f3f3;
+}
+    
+/*==============================================
+    DASHBOARD STYLES    
+    =============================================*/
+.div-square {
+    padding:5px;
+    border:3px double #e1e1e1;
+    -webkit-border-radius:8px;
+   -moz-border-radius:8px;
+    border-radius:8px;
+    margin:5px;
+
+}
+
+.div-square> a,.div-square> a:hover {
+    color:#808080;
+     text-decoration:none;
+}
+
+.permissions {
+    width:100%;
+}
+
+.permissions > input {
+    margin:1rem;
+}
+
+/*==============================================
+    FOOTER STYLES     
+    =============================================*/
+.footer {
+    background-color:#214761;
+    width:100%;
+    color:#fff;
+    padding:20px 50px 20px 50px;
+     padding-left:20px;
+}
+
+
+    .footer > a, .footer>a:hover {
+       
+        color:#fff;
+    }
+
+/*==============================================
+    MEDIA QUERIES     
+    =============================================*/
+ 
+ @media(min-width:768px) {
+     #page-wrapper{
+               margin: 0 0 0 260px;
+        padding: 15px 30px;
+        min-height: 1050px;
+		
+    }
+	
+	
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+       
+    }
+
+ 
+}
+
+/*==============================================
+    PA LOGIN FORM  
+    =============================================*/
+
+.pa-login {
+    margin-top:15%;
+}
+
+.editor {
+    width: 100%;
+    background: #e8e8e8;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+
+
+
